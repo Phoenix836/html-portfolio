@@ -1,0 +1,280 @@
+.gradient-background {
+    background: linear-gradient(300deg, #F5EFE7, #d8c4b6, #66785f,#3e5879,#3E5879);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-serif-bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-serif-regular-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-serif-bold-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+.nunito-sans {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+.prof-img{
+  border-radius: 50%;
+  height: 300px;
+}
+
+/* Add margin to the image */
+.img-margin {
+  margin: 20px;
+}
+
+/* Reset default margins and paddings */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* General Reset */
+* {
+  box-sizing: border-box;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+  .btn-group a {
+    display: block;
+    margin: 5px 0; /* Stack buttons vertically with margin */
+    width: 100%; /* Make buttons full-width */
+  }
+}
+
+/* Image Styling */
+.prof-img {
+  border-radius: 50%;
+  height: 300px;
+}
+
+/* Button Group Styling */
+.btn-group a { 
+  margin: 5px; /* Adjust the value as needed */
+  padding: 10px;
+}
+
+/* Add left margin to all sections */
+
+
+
+
+/* General Styling for Headings and Paragraphs */
+.display-5,
+.introduction h1,
+.section-about h1,
+.section-education h1,
+.section-workexperience h1,
+.section-projects h1,
+.section-contact h1 {
+  font-weight: 800;
+  font-size: x-large;
+  font-family: "PT Serif", serif;
+  margin: 20px;
+  }
+
+.display-5 {
+  font-size: 50px;
+}
+
+.introduction p,
+.lead,
+.section-about p,
+.section-education p,
+.section-workexperience p,
+.section-projects p,
+.section-contact p {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 20px; 
+  padding: 0; 
+}
+
+/* Styling for Headings */
+.introduction h1 {
+  font-size: x-large;
+  margin: 20px;
+}
+
+/* Specific Styling for Section Headings */
+.section-about h2,
+.section-education h2,
+.section-workexperience h2,
+.section-projects h2,
+.section-contact h2 {
+  font-family: "PT Serif", serif;
+  font-size: large;
+  margin: 20px;
+}
+
+/* List Styling within Sections */
+.section-about ul li,
+.section-education ul li,
+.section-workexperience ul li,
+.section-projects ul li,
+.section-contact ul li {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 5px; 
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+/* Footer Styling */
+footer {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: large;
+  margin: 5px; 
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
